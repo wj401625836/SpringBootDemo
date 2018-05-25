@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: com.project.plan.PlanApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 43.416 sec <<< FAILURE! - in com.project.plan.PlanApplicationTests
+testTrans(com.project.plan.PlanApplicationTests)  Time elapsed: 3.439 sec  <<< ERROR!
+org.springframework.transaction.TransactionSystemException: Could not commit JPA transaction; nested exception is javax.persistence.RollbackException: Transaction marked as rollbackOnly
+	at org.hibernate.jpa.internal.TransactionImpl.commit(TransactionImpl.java:58)
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:517)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:761)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:730)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.commitTransactionAfterReturning(TransactionAspectSupport.java:518)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:292)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:673)
+	at com.project.plan.service.plan.ModuleServiceImpl$$EnhancerBySpringCGLIB$$e7a0656f.saveOneTest(<generated>)
+	at com.project.plan.PlanApplicationTests.testTrans(PlanApplicationTests.java:141)
+

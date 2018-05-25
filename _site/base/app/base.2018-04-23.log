@@ -1,0 +1,42 @@
+2018-04-23 10:01:29.876 [main] DEBUG com.project.plan.config.listener.ApplicationEventListener - 初始化环境变量
+2018-04-23 10:01:29.947 [main] INFO  com.project.plan.PlanApplicationTests - Starting PlanApplicationTests on MS-F0133-SH1SW with PID 135928 (started by yingjing.liu in D:\rgk_project_info_system\ProjectPlan)
+2018-04-23 10:01:29.948 [main] DEBUG com.project.plan.PlanApplicationTests - Running with Spring Boot v1.4.2.RELEASE, Spring v4.3.4.RELEASE
+2018-04-23 10:01:29.949 [main] INFO  com.project.plan.PlanApplicationTests - The following profiles are active: dev
+2018-04-23 10:01:29.980 [main] DEBUG com.project.plan.config.listener.ApplicationEventListener - 初始化环境变量完成
+2018-04-23 10:01:30.297 [background-preinit] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+2018-04-23 10:01:32.895 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2018-04-23 10:01:34.649 [main] DEBUG org.hibernate.SQL - alter table t_module drop foreign key FKkh8lvnvyrkuyl4tlws3ma6y8n
+2018-04-23 10:01:35.069 [main] DEBUG org.hibernate.SQL - alter table t_tache drop foreign key FKo0cuag31d826pugaamd7ps3y0
+2018-04-23 10:01:35.194 [main] DEBUG org.hibernate.SQL - alter table tb_resource drop foreign key FKf5ra2gn0xedeida2op8097sr5
+2018-04-23 10:01:35.269 [main] DEBUG org.hibernate.SQL - alter table tb_role_resource drop foreign key FK868kc8iic48ilv5npa80ut6qo
+2018-04-23 10:01:35.347 [main] DEBUG org.hibernate.SQL - alter table tb_role_resource drop foreign key FK7ffc7h6obqxflhj1aq1mk20jk
+2018-04-23 10:01:35.401 [main] DEBUG org.hibernate.SQL - alter table tb_user_role drop foreign key FKea2ootw6b6bb0xt3ptl28bymv
+2018-04-23 10:01:35.466 [main] DEBUG org.hibernate.SQL - alter table tb_user_role drop foreign key FK7vn3h53d0tqdimm8cp45gc0kl
+2018-04-23 10:01:35.527 [main] DEBUG org.hibernate.SQL - drop table if exists t_module
+2018-04-23 10:01:35.866 [main] DEBUG org.hibernate.SQL - drop table if exists t_project
+2018-04-23 10:01:36.046 [main] DEBUG org.hibernate.SQL - drop table if exists t_tache
+2018-04-23 10:01:36.139 [main] DEBUG org.hibernate.SQL - drop table if exists tb_resource
+2018-04-23 10:01:36.239 [main] DEBUG org.hibernate.SQL - drop table if exists tb_role
+2018-04-23 10:01:36.326 [main] DEBUG org.hibernate.SQL - drop table if exists tb_role_resource
+2018-04-23 10:01:36.460 [main] DEBUG org.hibernate.SQL - drop table if exists tb_user
+2018-04-23 10:01:36.572 [main] DEBUG org.hibernate.SQL - drop table if exists tb_user_role
+2018-04-23 10:01:36.676 [main] DEBUG org.hibernate.SQL - create table t_module (id integer not null auto_increment, create_comment varchar(500), create_time datetime not null, update_comment varchar(100), update_time datetime, name varchar(500) not null, start_time datetime not null, stat integer not null, wish_time datetime not null, project_id integer, primary key (id))
+2018-04-23 10:01:36.883 [main] DEBUG org.hibernate.SQL - create table t_project (id integer not null auto_increment, create_comment varchar(500), create_time datetime not null, update_comment varchar(100), update_time datetime, name varchar(500) not null, stat integer not null, primary key (id))
+2018-04-23 10:01:37.233 [main] DEBUG org.hibernate.SQL - create table t_tache (id integer not null auto_increment, create_comment varchar(500), create_time datetime not null, update_comment varchar(100), update_time datetime, archive_time varchar(500), plan_time datetime not null, real_time datetime, user_id integer, module_id integer, primary key (id))
+2018-04-23 10:01:38.141 [main] DEBUG org.hibernate.SQL - create table tb_resource (id integer not null auto_increment, create_time datetime, description varchar(255), icon varchar(255), is_hide integer, level integer, name varchar(255), sort integer, source_key varchar(255), source_url varchar(255), type integer, update_time datetime, parent_id integer, primary key (id))
+2018-04-23 10:01:38.359 [main] DEBUG org.hibernate.SQL - create table tb_role (id integer not null auto_increment, create_time datetime, description varchar(255), name varchar(255), role_key varchar(255), status integer, update_time datetime, primary key (id))
+2018-04-23 10:01:38.608 [main] DEBUG org.hibernate.SQL - create table tb_role_resource (role_id integer not null, resource_id integer not null, primary key (role_id, resource_id))
+2018-04-23 10:01:38.959 [main] DEBUG org.hibernate.SQL - create table tb_user (id integer not null auto_increment, address varchar(255), birthday datetime, create_time datetime, delete_status integer, description varchar(255), email varchar(255), locked integer, nick_name varchar(255), password varchar(255), sex integer, telephone varchar(255), update_time datetime, user_name varchar(255), primary key (id))
+2018-04-23 10:01:39.402 [main] DEBUG org.hibernate.SQL - create table tb_user_role (user_id integer not null, role_id integer not null, primary key (user_id, role_id))
+2018-04-23 10:01:39.626 [main] DEBUG org.hibernate.SQL - alter table t_module add constraint FKkh8lvnvyrkuyl4tlws3ma6y8n foreign key (project_id) references t_project (id)
+2018-04-23 10:01:40.291 [main] DEBUG org.hibernate.SQL - alter table t_tache add constraint FKo0cuag31d826pugaamd7ps3y0 foreign key (module_id) references t_module (id)
+2018-04-23 10:01:40.910 [main] DEBUG org.hibernate.SQL - alter table tb_resource add constraint FKf5ra2gn0xedeida2op8097sr5 foreign key (parent_id) references tb_resource (id)
+2018-04-23 10:01:41.675 [main] DEBUG org.hibernate.SQL - alter table tb_role_resource add constraint FK868kc8iic48ilv5npa80ut6qo foreign key (resource_id) references tb_resource (id)
+2018-04-23 10:01:42.400 [main] DEBUG org.hibernate.SQL - alter table tb_role_resource add constraint FK7ffc7h6obqxflhj1aq1mk20jk foreign key (role_id) references tb_role (id)
+2018-04-23 10:01:43.064 [main] DEBUG org.hibernate.SQL - alter table tb_user_role add constraint FKea2ootw6b6bb0xt3ptl28bymv foreign key (role_id) references tb_role (id)
+2018-04-23 10:01:43.783 [main] DEBUG org.hibernate.SQL - alter table tb_user_role add constraint FK7vn3h53d0tqdimm8cp45gc0kl foreign key (user_id) references tb_user (id)
+2018-04-23 10:01:48.924 [main] DEBUG com.project.plan.config.listener.ApplicationEventListener - 应用刷新
+2018-04-23 10:01:48.933 [main] DEBUG com.project.plan.config.listener.ApplicationEventListener - 应用已启动完成
+2018-04-23 10:01:48.934 [main] INFO  com.project.plan.PlanApplicationTests - Started PlanApplicationTests in 19.367 seconds (JVM running for 21.849)
+2018-04-23 10:01:49.000 [Thread-1] DEBUG com.project.plan.config.listener.ApplicationEventListener - 应用关闭
+2018-04-23 10:01:49.016 [Thread-1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed

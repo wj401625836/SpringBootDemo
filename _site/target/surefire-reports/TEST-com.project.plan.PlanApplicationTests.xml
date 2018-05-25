@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.project.plan.PlanApplicationTests" time="10.15" tests="6" errors="1" skipped="0" failures="0">
+  <properties>
+    <property name="idea.version" value="15.0.1"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="D:\softs\java8\jre\bin"/>
+    <property name="java.vm.version" value="25.25-b02"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="idea.launcher.port" value="7536"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\rgk_project_info_system\ProjectPlan"/>
+    <property name="java.runtime.version" value="1.8.0_25-b18"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="D:\softs\java8\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\yingjing.liu\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="C:\Program Files (x86)\JetBrains\IntelliJ IDEA 15.0.1\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.library.path" value="D:\softs\java8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\apps\Git\usr\bin;D:\softs\Ruby24-x64\bin;C:\ProgramData\Oracle\Java\javapath;C:\apps\Git\bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\apps\androidstudio\sdk\platform-tools;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE\PrivateAssemblies\;C:\Program Files (x86)\Microsoft SQL Server\110\DTS\Binn\;D:\softs\java8\bin;%CATALINA_HOME%\bin;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5.4 &amp; MySQL Utilities 1.5.4 1.5\;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5.4 &amp; MySQL Utilities 1.5.4 1.5\Doctrine extensions for PHP\;C:\Program Files\Java\jdk1.8.0_25\bin;D:\softs\apache-maven-3.2.5\bin;C:\Program Files\MySQL\MySQL Server 5.6\bin;D:\softs\MinGW\bin;D:\softs\TortoiseGit\bin;D:\softs\postgresql\bin;D:\softs\Python;D:\softs\Python\Scripts;D:\softs\MinGW\bin;D:\softs\MinGW\msys\1.0\bin;D:\softs\redis\Redis-x64-3.2.100;D:\softs\AndroidStudio\sdk\platform-tools;D:\softs\redis\Redis-x64-3.2.100;D:\softs\cmder;D:\softs\Python\Scripts\;D:\softs\Python\;C:\Users\yingjing.liu\AppData\Local\Programs\Fiddler;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\yingjing.liu"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="idea.launcher.bin.path" value="C:\Program Files (x86)\JetBrains\IntelliJ IDEA 15.0.1\bin"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="yingjing.liu"/>
+    <property name="java.class.path" value="C:\Program Files (x86)\JetBrains\IntelliJ IDEA 15.0.1\plugins\maven\lib\maven3\boot\plexus-classworlds-2.4.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA 15.0.1\lib\idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="D:\softs\java8\jre"/>
+    <property name="sun.java.command" value="com.intellij.rt.execution.application.AppMain org.codehaus.classworlds.Launcher -Didea.version=15.0.1 package"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="zh"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_25"/>
+    <property name="java.ext.dirs" value="D:\softs\java8\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="D:\softs\java8\jre\lib\resources.jar;D:\softs\java8\jre\lib\rt.jar;D:\softs\java8\jre\lib\sunrsasign.jar;D:\softs\java8\jre\lib\jsse.jar;D:\softs\java8\jre\lib\jce.jar;D:\softs\java8\jre\lib\charsets.jar;D:\softs\java8\jre\lib\jfr.jar;D:\softs\java8\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files (x86)\JetBrains\IntelliJ IDEA 15.0.1\plugins\maven\lib\maven3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="syncLdapUsers" classname="com.project.plan.PlanApplicationTests" time="5.511"/>
+  <testcase name="testTrans" classname="com.project.plan.PlanApplicationTests" time="3.439">
+    <error message="Could not commit JPA transaction; nested exception is javax.persistence.RollbackException: Transaction marked as rollbackOnly" type="org.springframework.transaction.TransactionSystemException"><![CDATA[org.springframework.transaction.TransactionSystemException: Could not commit JPA transaction; nested exception is javax.persistence.RollbackException: Transaction marked as rollbackOnly
+	at org.hibernate.jpa.internal.TransactionImpl.commit(TransactionImpl.java:58)
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:517)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:761)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:730)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.commitTransactionAfterReturning(TransactionAspectSupport.java:518)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:292)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:673)
+	at com.project.plan.service.plan.ModuleServiceImpl$$EnhancerBySpringCGLIB$$e7a0656f.saveOneTest(<generated>)
+	at com.project.plan.PlanApplicationTests.testTrans(PlanApplicationTests.java:141)
+]]></error>
+    <system-out><![CDATA[2018-05-03 11:54:36.116 [main] DEBUG org.hibernate.SQL - insert into t_module (create_comment, create_time, update_comment, update_time, name, project_id, start_time, stat, wish_time) values (?, ?, ?, ?, ?, ?, ?, ?, ?)
+Hibernate: insert into t_module (create_comment, create_time, update_comment, update_time, name, project_id, start_time, stat, wish_time) values (?, ?, ?, ?, ?, ?, ?, ?, ?)
+ 里面catch 
+--插入成功
+]]></system-out>
+  </testcase>
+  <testcase name="test2" classname="com.project.plan.PlanApplicationTests" time="0.922"/>
+  <testcase name="test3" classname="com.project.plan.PlanApplicationTests" time="0.225"/>
+  <testcase name="contextLoads" classname="com.project.plan.PlanApplicationTests" time="0.004"/>
+  <testcase name="testSelect" classname="com.project.plan.PlanApplicationTests" time="0.049"/>
+</testsuite>
